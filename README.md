@@ -100,9 +100,9 @@ These projects are great for learning basic Python concepts like loops, conditio
 PythonProjects/
 │
 ├── Projects/                     
-│   ├── number_guessing.py       # Number Guessing Game (with difficulty levels)
-│   ├── rock_paper_scissors.py   # Rock Paper Scissors game
-│   └── dice_rolling.py          # Dice Rolling simulator
+│   ├── NumberGuessing.py       # Number Guessing Game (with difficulty levels)
+│   ├── RockPaperScissor.py   # Rock Paper Scissors game
+│   └── DiceRolling.py          # Dice Rolling 
 │
 └── README.md                   
 ```
