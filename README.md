@@ -57,25 +57,32 @@ These projects are great for learning basic Python concepts like loops, conditio
 ---
 
 ### 4. Random Password Generator 🔒
-
-* Computer randomly generates the random password of the user desired size or length.
-  
-* Computer randomly generates the random password.
-* The Password contains charcters like uppercase, lowercase, digits and special characters.
-* Plus one point added to the counter variable of uppercase, lowercase, digits and special:
+Generates a random password based on the user’s desired length.
+The password includes a mix of:
+    * Uppercase letters
+    * Lowercase letters
+    * Digits
+    * Special characters
+Ensures better security by combining different character types.
 
 ---
 
 ### 5. Password Strength Validator 🔒
 
-* Computer Generates the random Password and tells the user password is strong or not.
-
-* Computer randomly generates the password.
-* The password checks if it contains characters like uppercase, lowercase, digits and special character.
-* Plus one point added to the variable of their respective counter and also check if the length of password is 8 or not:
-
-  * If the length of the password is less than 8 it returns Weak
-  * If the length of the password is more than and it contains uppercase, lowercase, digit and special character it returns Strong.
+Checks whether a given password is strong or weak.
+Validates the password based on:
+Minimum length of 8 characters
+Presence of:
+Uppercase letters
+Lowercase letters
+Digits
+Special characters
+Strength Criteria:
+Weak Password
+Length is less than 8 characters
+Strong Password
+Length is at least 8 characters
+Contains uppercase, lowercase, digits, and special characters
 
 ---
 ## 🛠️ Technologies Used
