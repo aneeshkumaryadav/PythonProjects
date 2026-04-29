@@ -104,7 +104,7 @@ These projects are great for learning basic Python concepts like loops, conditio
 2. Navigate to the project folder:
 
    ```bash
-   cd python-mini-games
+   cd Projects
    ```
 
 3. Run any game:
@@ -120,13 +120,13 @@ These projects are great for learning basic Python concepts like loops, conditio
 
 ```
 PythonProjects/
-│
-├── Projects/                     
-│   ├── NumberGuessing.py       # Number Guessing Game (with difficulty levels)
-│   ├── RockPaperScissor.py   # Rock Paper Scissors game
-│   └── DiceRolling.py          # Dice Rolling 
-│
-└── README.md                   
+├── Projects/
+│   ├── DiceRolling.py
+│   ├── NumberGuessing.py
+│   ├── PasswordGenerator.py
+│   ├── PasswordValidator.py
+│   └── RockPaperScissor.py
+└── README.md              
 ```
 
 ---
