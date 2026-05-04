@@ -1,10 +1,10 @@
 # 🎮 Python Mini Games Collection
 
-This repository contains three fun and beginner-friendly Python games:
+This repository contains five fun and beginner-friendly Python projects:
 
 1. **Number Guessing Game (with difficulty levels)**
 2. **Rock Paper Scissors**
-3. **Dice Rolling Game**
+3. **Dice Probability Game**
 4. **Random Password Generator**
 5. **Password Strength Validator**
 
@@ -12,13 +12,13 @@ These projects are great for learning basic Python concepts like loops, conditio
 
 ---
 
-## 📌 Features
-
 # 🔢 Number Guessing Game
 
 A simple and fun Python game where the computer randomly selects a number, and the player tries to guess it within a limited number of attempts.
 
 ---
+
+## 📌 Features
 
 * Random number generation 🎲
 * User input with hints (too high / too low)
@@ -57,7 +57,6 @@ A simple and fun Python game where the computer randomly selects a number, and t
 * Conditional statements → check user input and provide hints
 
 ---
-
 
 # ✊✋✌️ Rock Paper Scissors Game
 
@@ -113,9 +112,11 @@ A simple Python implementation of the classic Rock, Paper, Scissors game where y
 
 # 🎲 Dice Probability Game
 
-A simple Python program that calculates and displays the probability of getting a specific sum when rolling two dice. It also simulates a dice roll to make it interactive and fun.
+A simple Python program that calculates and displays the probability of getting a specific sum when rolling two dice.
 
 ---
+
+## 📌 Features
 
 * Calculates probability of sums from **2 to 12**
 * Simulates rolling two dice 🎲
@@ -134,6 +135,8 @@ A simple Python program that calculates and displays the probability of getting 
 ```
 Probability = Favorable Outcomes / Total Outcomes
 ```
+
+---
 
 ## 🎮 Usage
 
@@ -162,6 +165,7 @@ Probability = Favorable Outcomes / Total Outcomes
 | 11  | 2/36 (5.56%)  |
 | 12  | 1/36 (2.78%)  |
 
+---
 
 ## 🛠️ Code Overview (Dice Probability Game)
 
@@ -229,7 +233,7 @@ A simple Python program that checks the strength of a password based on common s
 
 * Evaluates password strength 🔍
 * Checks for length, letters, numbers, and symbols
-* Provides feedback (Weak / Strong)
+* Provides feedback (Weak / Medium / Strong)
 * Helps improve password security
 * Beginner-friendly code
 
@@ -268,7 +272,7 @@ A simple Python program that checks the strength of a password based on common s
 ## 🛠️ Technologies Used
 
 * Python 3
-* Built-in modules:
+* Built-in module:
 
   * `random`
 
@@ -280,26 +284,27 @@ A simple Python program that checks the strength of a password based on common s
 
 * Python 3 installed on your system
 
-### Installation
+### Installation & Run
 
 1. Clone this repository:
 
-   ```bash
-   git clone https://github.com/aneeshkumaryadav/PythonProjects.git
-   ```
+```bash
+git clone https://github.com/aneeshkumaryadav/PythonProjects.git
+```
 
 2. Navigate to the project folder:
 
-   ```bash
-   cd Projects
-   ```
+```bash
+cd PythonProjects/Projects
+```
 
-3. Run any game:
+3. Run any file (example):
 
-   ```bash
-   cd PythonProjects/Projects
-   python file_name.py
-   ```
+```bash
+python DiceRolling.py
+```
+
+> Replace `DiceRolling.py` with any file you want to run.
 
 ---
 
@@ -313,45 +318,30 @@ PythonProjects/
 │   ├── PasswordGenerator.py
 │   ├── PasswordValidator.py
 │   └── RockPaperScissor.py
-└── README.md              
+└── README.md
 ```
 
 ---
 
 ## 🎓 Learning Outcomes
 
-After completing these projects (Number Guessing Game, Rock Paper Scissors, Dice Probability Game, Random Password Generator, and Password Strength Validator), you will be able to:
+After completing these projects, you will be able to:
 
 * Understand basic Python programming concepts
-
 * Use `random` module for simulations and game logic
-
 * Work with loops to repeat actions and handle gameplay
-
 * Apply conditional statements to make decisions
-
 * Take and validate user input effectively
-
 * Calculate basic probability using logic and iteration
-
 * Understand combinations through dice simulations
-
 * Build simple interactive command-line games 🎮
-
 * Work with strings and character sets
-
 * Generate secure random passwords 🔐
-
 * Validate input using rules and conditions
-
 * Design modular programs using functions
-
 * Break problems into smaller reusable parts
-
 * Improve problem-solving and logical thinking skills
-
 * Build confidence in creating beginner-level projects
-
 * Prepare for more advanced Python concepts and projects 🚀
 
 ---
@@ -378,4 +368,5 @@ Inspired by beginner Python practice projects to build logic and problem-solving
 
 ---
 
-Happy Coding! 🚀 | Aneesh Kumar Yadav
+Happy Coding! 🚀
+**Aneesh Kumar Yadav**
