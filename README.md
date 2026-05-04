@@ -4,7 +4,7 @@ This repository contains three fun and beginner-friendly Python games:
 
 1. **Number Guessing Game (with difficulty levels)**
 2. **Rock Paper Scissors**
-3. **Dice Rolling Game (incomplete)**
+3. **Dice Rolling Game**
 4. **Random Password Generator**
 5. **Password Strength Validator**
 
@@ -14,85 +14,257 @@ These projects are great for learning basic Python concepts like loops, conditio
 
 ## 📌 Features
 
-### 1. Number Guessing Game 🎯
+# 🔢 Number Guessing Game
 
-* The computer randomly selects a number.
-* Player chooses a difficulty level:
-
-  * **Easy**
-  * **Medium**
-  * **Hard**
-
-* Feedback is provided after each guess (Number is Greater / Number is Smaller).
-* Game ends when the player guesses correctly.
+A simple and fun Python game where the computer randomly selects a number, and the player tries to guess it within a limited number of attempts.
 
 ---
 
-### 2. Rock Paper Scissors ✊📄✂️
+* Random number generation 🎲
+* User input with hints (too high / too low)
+* Limited attempts for challenge
+* Beginner-friendly logic
 
-* Classic game against the computer.
-* User selects:
+---
 
-  * Rock
-  * Paper
-  * Scissors
+## 🧠 How It Works
 
-* Computer randomly chooses its move.
-* Winner is decided based on standard rules.
-* Plus one point added to the winner score:
+* The program generates a random number within a given range
+* The player keeps guessing the number
+* After each guess, feedback is provided:
+
+  * Too high 📈
+  * Too low 📉
+* The game ends when:
+
+  * The player guesses correctly 🎉
+  * OR runs out of attempts ❌
+
+---
+
+## 🎮 Usage
+
+* Enter guesses when prompted
+* Follow the hints to reach the correct number
+* Try to guess within the allowed attempts
+
+---
+
+## 🛠️ Code Overview
+
+* `random.randint()` → generates random number
+* Loop → handles repeated guesses
+* Conditional statements → check user input and provide hints
+
+---
+
+
+# ✊✋✌️ Rock Paper Scissors Game
+
+A simple Python implementation of the classic Rock, Paper, Scissors game where you play against the computer.
+
+---
+
+## 📌 Features
+
+* Play against computer 🤖
+* Random computer choices
+* Instant result (Win / Lose / Draw)
+* Option to play multiple rounds 🔁
+* Beginner-friendly code
+
+---
+
+## 🧠 How It Works
+
+* The player selects:
+
+  * Rock ✊
+  * Paper ✋
+  * Scissors ✌️
+* The computer randomly selects one option
+* Rules:
 
   * Rock beats Scissors
   * Scissors beats Paper
   * Paper beats Rock
+* The winner is decided based on these rules
 
 ---
 
-### 3. Dice Rolling Game 🎲
+## 🎮 Usage
 
-(NEEDED TO COMPLETE THE CODE).
-<!--
-* Simulates rolling a dice.
-* Generates a random number between 1 and 6.
-* User can roll multiple times.
-* Option to exit anytime.-->
+* Enter your choice: `rock`, `paper`, or `scissors`
+* The computer will make its choice
+* The result will be displayed instantly
+* Choose to play again or exit
 
 ---
 
-### 4. Random Password Generator 🔒
-* Generates strong and secure passwords with user-defined length
-* Uses a combination of uppercase letters, lowercase letters, digits, and special characters
-* Ensures better security through randomness and character diversity
-* Helps create passwords that are harder to guess or crack
+## 🛠️ Code Overview
+
+* `get_computer_choice()` → randomly selects move
+* `random.choice()` → generates computer’s move
+* `get_user_choice()` → takes user input
+* Conditional statements → decide winner
+* Loop → enables multiple rounds
 
 ---
 
-### 5. Password Strength Validator 🔒
+# 🎲 Dice Probability Game
 
-* Evaluates whether a password is strong or weak based on defined criteria
-* Checks for a minimum length of 8 characters
-* Verifies the presence of:
+A simple Python program that calculates and displays the probability of getting a specific sum when rolling two dice. It also simulates a dice roll to make it interactive and fun.
 
-  * Uppercase letters
-  * Lowercase letters
-  * Digits
+---
+
+* Calculates probability of sums from **2 to 12**
+* Simulates rolling two dice 🎲
+* Displays result instantly
+* Beginner-friendly Python code
+
+---
+
+## 🧠 How It Works
+
+* Each die has 6 faces → total outcomes = **36**
+* The program checks all possible combinations of two dice
+* Counts how many combinations match the chosen sum
+* Uses the formula:
+
+```
+Probability = Favorable Outcomes / Total Outcomes
+```
+
+## 🎮 Usage
+
+* Enter a number between **2 and 12**
+* The program will:
+
+  * Show the probability of getting that sum
+  * Roll two dice
+  * Tell you if you won or not
+
+---
+
+## 📈 Probability Reference Table
+
+| Sum | Probability   |
+| --- | ------------- |
+| 2   | 1/36 (2.78%)  |
+| 3   | 2/36 (5.56%)  |
+| 4   | 3/36 (8.33%)  |
+| 5   | 4/36 (11.11%) |
+| 6   | 5/36 (13.89%) |
+| 7   | 6/36 (16.67%) |
+| 8   | 5/36 (13.89%) |
+| 9   | 4/36 (11.11%) |
+| 10  | 3/36 (8.33%)  |
+| 11  | 2/36 (5.56%)  |
+| 12  | 1/36 (2.78%)  |
+
+
+## 🛠️ Code Overview (Dice Probability Game)
+
+* `calculate_probability()` → calculates probability of a given sum
+* Nested loops → check all 36 possible dice combinations
+* `roll_dice()` → generates two random numbers (dice rolls)
+* `random.randint()` → simulates each die (1 to 6)
+* `dice_game()` → controls the game flow
+* Conditional statements → validate input and check win/loss
+
+---
+
+# 🔐 Random Password Generator
+
+A simple Python program that generates strong and secure random passwords based on user preferences.
+
+---
+
+## 📌 Features
+
+* Generates random passwords 🔑
+* Customizable password length
+* Includes letters, numbers, and symbols
+* Strong and secure output
+* Beginner-friendly code
+
+---
+
+## 🧠 How It Works
+
+* The user specifies the desired password length
+* The program combines:
+
+  * Uppercase and lowercase letters
+  * Numbers
   * Special characters
-
-**Strength Criteria:**
-
-* **Weak Password**
-
-  * Less than 8 characters
-  * Missing one or more required character types
-
-* **Strong Password**
-
-  * At least 8 characters long
-  * Includes uppercase, lowercase, digits, and special characters
-
-* Helps users create more secure and reliable passwords
-
+* A random selection is made to create a secure password
 
 ---
+
+## 🎮 Usage
+
+* Enter the desired password length
+* The program generates and displays a random password
+* Run again to generate a new password
+
+---
+
+## 🛠️ Code Overview
+
+* `generate_password()` → creates random password
+* `random.choice()` → selects random characters
+* Character sets → letters, digits, symbols
+* Loop → builds password of given length
+
+---
+
+# 🔒 Password Strength Validator
+
+A simple Python program that checks the strength of a password based on common security rules.
+
+---
+
+## 📌 Features
+
+* Evaluates password strength 🔍
+* Checks for length, letters, numbers, and symbols
+* Provides feedback (Weak / Strong)
+* Helps improve password security
+* Beginner-friendly code
+
+---
+
+## 🧠 How It Works
+
+* The user enters a password
+* The program checks for:
+
+  * Minimum length
+  * Uppercase and lowercase letters
+  * Numbers
+  * Special characters
+* Based on these checks, it classifies the password strength
+
+---
+
+## 🎮 Usage
+
+* Enter a password when prompted
+* The program analyzes it
+* Displays strength level
+
+---
+
+## 🛠️ Code Overview
+
+* `check_strength()` → evaluates password strength
+* Conditional statements → check different criteria
+* String methods → detect letters, digits, symbols
+* Length check → ensures minimum security requirement
+
+---
+
 ## 🛠️ Technologies Used
 
 * Python 3
@@ -146,15 +318,42 @@ PythonProjects/
 
 ---
 
-## 🎯 Learning Outcomes
+## 🎓 Learning Outcomes
 
-These projects help you understand:
+After completing these projects (Number Guessing Game, Rock Paper Scissors, Dice Probability Game, Random Password Generator, and Password Strength Validator), you will be able to:
 
-* Conditional statements (`if-elif-else`)
-* Loops (`while`, `for`)
-* Random number generation in range (`random.randint(start, end`)
-* Random choice pick from list and string (`random.choice(list or string)`)
-* Handle user input and variable tracking (`number of attempts` or `number of play games`)
+* Understand basic Python programming concepts
+
+* Use `random` module for simulations and game logic
+
+* Work with loops to repeat actions and handle gameplay
+
+* Apply conditional statements to make decisions
+
+* Take and validate user input effectively
+
+* Calculate basic probability using logic and iteration
+
+* Understand combinations through dice simulations
+
+* Build simple interactive command-line games 🎮
+
+* Work with strings and character sets
+
+* Generate secure random passwords 🔐
+
+* Validate input using rules and conditions
+
+* Design modular programs using functions
+
+* Break problems into smaller reusable parts
+
+* Improve problem-solving and logical thinking skills
+
+* Build confidence in creating beginner-level projects
+
+* Prepare for more advanced Python concepts and projects 🚀
+
 ---
 
 ## 🤝 Contributing
