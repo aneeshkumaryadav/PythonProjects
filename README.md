@@ -5,6 +5,8 @@ This repository contains three fun and beginner-friendly Python games:
 1. **Number Guessing Game (with difficulty levels)**
 2. **Rock Paper Scissors**
 3. **Dice Rolling Game (incomplete)**
+4. **Random Password Generator**
+5. **Password Strength Validator**
 
 These projects are great for learning basic Python concepts like loops, conditionals, user input, and random number generation.
 
@@ -57,32 +59,38 @@ These projects are great for learning basic Python concepts like loops, conditio
 ---
 
 ### 4. Random Password Generator 🔒
-Generates a random password based on the user’s desired length.
-The password includes a mix of:
-    * Uppercase letters
-    * Lowercase letters
-    * Digits
-    * Special characters
-Ensures better security by combining different character types.
+* Generates strong and secure passwords with user-defined length
+* Uses a combination of uppercase letters, lowercase letters, digits, and special characters
+* Ensures better security through randomness and character diversity
+* Helps create passwords that are harder to guess or crack
 
 ---
 
 ### 5. Password Strength Validator 🔒
 
-Checks whether a given password is strong or weak.
-Validates the password based on:
-Minimum length of 8 characters
-Presence of:
-Uppercase letters
-Lowercase letters
-Digits
-Special characters
-Strength Criteria:
-Weak Password
-Length is less than 8 characters
-Strong Password
-Length is at least 8 characters
-Contains uppercase, lowercase, digits, and special characters
+* Evaluates whether a password is strong or weak based on defined criteria
+* Checks for a minimum length of 8 characters
+* Verifies the presence of:
+
+  * Uppercase letters
+  * Lowercase letters
+  * Digits
+  * Special characters
+
+**Strength Criteria:**
+
+* **Weak Password**
+
+  * Less than 8 characters
+  * Missing one or more required character types
+
+* **Strong Password**
+
+  * At least 8 characters long
+  * Includes uppercase, lowercase, digits, and special characters
+
+* Helps users create more secure and reliable passwords
+
 
 ---
 ## 🛠️ Technologies Used
@@ -142,10 +150,11 @@ PythonProjects/
 
 These projects help you understand:
 
-* Conditional statements (`if-else`)
+* Conditional statements (`if-elif-else`)
 * Loops (`while`, `for`)
-* Random number generation
-
+* Random number generation in range (`random.randint(start, end`)
+* Random choice pick from list and string (`random.choice(list or string)`)
+* Handle user input and variable tracking (`number of attempts` or `number of play games`)
 ---
 
 ## 🤝 Contributing
