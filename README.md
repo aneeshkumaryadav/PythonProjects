@@ -1,12 +1,13 @@
 # 🎮 Python Mini Games Collection
 
-This repository contains five fun and beginner-friendly Python projects:
+This repository contains six fun and beginner-friendly Python projects:
 
 1. **Number Guessing Game (with difficulty levels)**
 2. **Rock Paper Scissors**
 3. **Dice Probability Game**
 4. **Random Password Generator**
 5. **Password Strength Validator**
+6. **OTP Generator**
 
 These projects are great for learning basic Python concepts like loops, conditionals, user input, and random number generation.
 
