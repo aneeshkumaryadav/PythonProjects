@@ -454,7 +454,7 @@ PythonProjects/
 ├── Projects/
 │   ├── NumberGuessing.py
 │   ├── RockPaperScissor.py
-│   ├── DiceProbabilityGame.py
+│   ├── DiceRolling.py
 │   ├── PasswordGenerator.py
 │   ├── PasswordValidator.py
 │   ├── OTP_Generator.py
