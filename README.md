@@ -459,7 +459,7 @@ PythonProjects/
 │   ├── PasswordValidator.py
 │   ├── OTP_Generator.py
 │   ├── PangramChecker.py
-│   └── MessageEncoder.py
+│   └── EncodeMessage.py
 └── README.md
 ```
 
