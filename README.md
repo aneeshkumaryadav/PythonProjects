@@ -452,12 +452,15 @@ python DiceRolling.py
 ```
 PythonProjects/
 ├── Projects/
-│   ├── DiceRolling.py
 │   ├── NumberGuessing.py
+│   ├── RockPaperScissor.py
+│   ├── DiceProbabilityGame.py
 │   ├── PasswordGenerator.py
 │   ├── PasswordValidator.py
-│   └── RockPaperScissor.py
-└── README.md
+│   ├── OTPGenerator.py
+│   ├── PangramChecker.py
+│   └── MessageEncoder.py
+├── README.md
 ```
 
 ---
