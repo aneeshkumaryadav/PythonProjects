@@ -457,7 +457,7 @@ PythonProjects/
 │   ├── DiceProbabilityGame.py
 │   ├── PasswordGenerator.py
 │   ├── PasswordValidator.py
-│   ├── OTPGenerator.py
+│   ├── OTP_Generator.py
 │   ├── PangramChecker.py
 │   └── MessageEncoder.py
 └── README.md
