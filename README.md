@@ -457,10 +457,10 @@ PythonProjects/
 │   ├── DiceProbabilityGame.py
 │   ├── PasswordGenerator.py
 │   ├── PasswordValidator.py
-│   ├── OTP_Generator.py
+│   ├── OTPGenerator.py
 │   ├── PangramChecker.py
-│   └── EncodeMessage.py
-├── README.md
+│   └── MessageEncoder.py
+└── README.md
 ```
 
 ---
