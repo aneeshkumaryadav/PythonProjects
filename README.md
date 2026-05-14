@@ -272,6 +272,142 @@ A simple Python program that checks the strength of a password based on common s
 
 ---
 
+# 🔐 OTP Generator
+
+A simple Python program that generates secure One-Time Passwords (OTPs) for authentication and verification purposes.
+
+---
+
+## 📌 Features
+
+* Generates random OTPs 🔢
+* Supports numeric OTP generation
+* Customizable OTP length
+* Fast and lightweight program
+* Beginner-friendly code
+
+---
+
+## 🧠 How It Works
+
+* The program generates a random OTP
+* It uses Python’s random module
+* The OTP can contain:
+
+  * Numbers
+  * (Optional) letters and symbols or can be added in the future
+* The generated OTP is displayed to the user
+
+---
+
+## 🎮 Usage
+
+* Run the program
+* Enter the desired OTP length (hardcoded, desired length is optional)
+* The program generates an OTP
+* Use the OTP for verification or testing purposes
+
+---
+
+## 🛠️ Code Overview
+
+* `generate_otp()` → creates a random OTP
+* Random module → generates secure random values
+* Loops → build OTP of desired length
+* String handling → combine characters into final OTP
+
+---
+
+# ✍️ Pangram Checker
+
+A simple Python program that checks whether a sentence is a pangram or not.
+
+---
+
+## 📌 Features
+
+* Detects pangram sentences 🔍
+* Checks all alphabet letters from a-z
+* Works with uppercase (optional) and lowercase letters
+* Fast and lightweight program
+* Beginner-friendly code
+
+---
+
+## 🧠 How It Works
+
+* The user enters a sentence
+* The program analyzes the text
+* It checks whether the sentence contains:
+
+  * All letters from a to z
+* Based on the check, it determines if the sentence is a pangram
+
+---
+
+## 🎮 Usage
+
+* Enter a sentence when prompted
+* The program analyzes the sentence
+* Displays whether it is a pangram or not
+
+---
+
+## 🛠️ Code Overview
+
+* `check_pangram()` → verifies the sentence
+* Loops → iterate through alphabet letters
+* String methods → process and compare text
+* Conditional statements → determine pangram status
+
+---
+
+# 🔐 Message Encoder
+
+A simple Python program that encodes messages to make them secure and unreadable without decoding.
+
+---
+
+## 📌 Features
+
+* Encodes secret messages 🔒
+* Supports basic text encryption techniques
+* Converts readable text into encoded format
+* Simple and lightweight program
+* Beginner-friendly code
+
+---
+
+## 🧠 How It Works
+
+* The user enters a message
+* The program processes the text
+* It applies an encoding technique such as:
+
+  * Character shifting
+  * ASCII conversion
+  * Custom encoding logic
+* The encoded message is displayed to the user
+
+---
+
+## 🎮 Usage
+
+* Enter a message when prompted
+* The program encodes the message
+* Displays the encoded output
+
+---
+
+## 🛠️ Code Overview
+
+* `encode_message()` → converts text into encoded form
+* Loops → process each character
+* String methods → manipulate text data
+* Conditional statements → apply encoding rules
+
+---
+
 ## 🛠️ Technologies Used
 
 * Python 3
