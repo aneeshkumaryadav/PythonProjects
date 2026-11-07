@@ -159,3 +159,37 @@ class Game:
         
         print("\n Thanks For Playing")
         
+    def check_winner(self, player_hand, dealer_hand, game_over=False):
+        if not game_over:
+            if player_hand.get_value() > 21:
+                print("You Busted !! Dealers Wins 😖")
+                return True
+            
+            elif dealer_hand.get_value() > 21:
+                print("Dealer Busted !! You Wins 😊")
+                return True
+            
+            elif player_hand.is_blackjack() and dealer_hand.is_blackjack():
+                print("You and Dealer Choose Blackjack, Tie 😶")
+                return True
+            
+            elif player_hand.is_blackjack():
+                print("You have Blackjack, You Win 😁")
+                return True
+            
+            elif dealer_hand.is_blackjack():
+                print("Dealer Have Blackjack, Dealer Win 😒")
+                return True
+                
+        else:
+            if player_hand.get_value() > dealer_hand.get_value():
+                print("You Win 😁")
+                    
+            elif player_hand.get_value() == dealer_hand.get_value():
+                print("It's a Tie 😶")
+                    
+            else:
+                print("Dealer's Win 😖")
+                return True
+                
+        return False   
