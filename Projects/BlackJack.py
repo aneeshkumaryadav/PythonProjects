@@ -95,7 +95,7 @@ class Game:
         
         while games_to_play <= 0:
             try:
-                games_to_play = int(input("How  Many Games do you wanna play? "))
+                games_to_play = int(input("How Many Games do you wanna play? "))
             except:
                 print("You Must Enter A Number!!")
             
