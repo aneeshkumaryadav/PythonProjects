@@ -192,4 +192,7 @@ class Game:
                 print("Dealer's Win 😖")
                 return True
                 
-        return False   
+        return False
+
+g = Game()
+g.play()
